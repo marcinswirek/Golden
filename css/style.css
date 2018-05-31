@@ -106,4 +106,28 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 .about-img-5 { background-color: #fed136; }
 
 .about-img-5::after { display: none; }
+
+.team { background-color: #f7f7f7; }
+
+.team-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
+
+.team-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
+
+.team-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; }
+
+.team-btn-img { width: 221px; height: 221px; border: none; border-radius: 50%; background-color: black; }
+
+.team-name { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 16px; color: #222222; font-weight: 900; padding-top: 25px; text-align: center; }
+
+.team-position { font-size: 14px; font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; color: #777777; text-align: center; padding-top: 14px; padding-bottom: 14px; }
+
+.team-social { text-align: center; }
+
+.team-social-btn { width: 41px; height: 41px; border-radius: 50%; border: 4px solid #222222; background-color: white; }
+
+.fa-team { color: #222222; font-size: 18px; }
+
+.team-container-item { margin: auto; }
+
+.team-paragraph { font-size: 16px; font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; color: #777777; padding-top: 50px; padding-bottom: 120px; text-align: center; }
 /*# sourceMappingURL=style.css.map */

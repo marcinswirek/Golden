@@ -383,3 +383,78 @@ body {
     display: none;
   }
 }
+
+//=====================================================================================
+// Team section
+.team {
+    background-color: $cream;
+}
+
+.team-header-large {
+    @include section-header-large();
+}
+
+.team-header-small {
+    @include section-header-small();
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.team-btn-img {
+    width: 221px;
+    height: 221px;
+    border: none;
+    border-radius: 50%;
+    background-color: $black;
+}
+
+.team-name {
+    font-family: $montserrat;
+    font-size: $font-size-s;
+    color: $light-black;
+    font-weight: 900;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.team-position {
+    font-size: $font-size-xs;
+    font-family: $roboto;
+    color: $gray;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.team-social {
+    text-align: center;
+}
+
+.team-social-btn {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    border: 4px solid $light-black;
+    background-color: $white;
+}
+
+.fa-team {
+    color: $light-black;
+    font-size: $font-size-m;
+}
+
+.team-container-item {
+    margin: auto;
+}
+
+.team-paragraph {
+    font-size: $font-size-s;
+    font-family: $roboto;
+    color: $gray;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    text-align: center;
+}
