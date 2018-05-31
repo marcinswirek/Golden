@@ -20,6 +20,10 @@ $gold: #fed136;
   width: 240px;
   height: 65px;
   border: none;
+  font-family: "Montserrat", "Merriweather", "Arial", sans-serif;
+  font-size: $font-size-m;
+  text-transform: uppercase;
+  font-weight: 900;
   background-color: $gold;
   border-radius: 5px;
   color: $white;
@@ -50,4 +54,70 @@ body {
 }
 
 //===================================================================================================
-// Menu
+// Navigation section
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+.menu-item > a {
+  text-decoration: none;
+  color: $white;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.logo {
+  font-size: $font-size-l;
+  color: $gold;
+  font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif;
+  letter-spacing: 2px;
+}
+
+//====================================================================================================
+// Hero section
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -90px;
+  height: 100vh;
+  background-image: url("/images/background-image.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.hero-header-container {
+  text-align: center;
+}
+
+.hero-header-medium {
+  font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif;
+  font-size: $font-size-xl;
+  font-style: italic;
+  color: $white;
+}
+
+.hero-header-large {
+    font-family: "Montserrat", "Merriweather", "Arial", sans-serif;
+    font-size: $font-size-xxl;
+    font-weight: 900;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    @include btn-gold;
+}
