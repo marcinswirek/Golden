@@ -3,5 +3,5 @@
 
 body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif; margin: 0 auto; }
 
-.container { width: 100%; max-width: 940px; }
+.container { width: 940px; max-width: 100%; margin: 0 auto; }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab');
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 
 // Variables
 $font-size-xs: 14px;
@@ -15,39 +15,39 @@ $light-black: #222222;
 $gray: #777777;
 $gold: #fed136;
 
-
 // Mixins
 @mixin btn-gold {
-    width: 240px;
-    height: 65px;
-    border: none;
-    background-color: $gold;
-    border-radius: 5px;
-    color: $white;
-    transition: .3s all linear;
-    &:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-        box-shadow: 0 0 10px $black;
-    }
+  width: 240px;
+  height: 65px;
+  border: none;
+  background-color: $gold;
+  border-radius: 5px;
+  color: $white;
+  transition: 0.3s all linear;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 10px $black;
+  }
 }
 //=================================================================================================
 // Content
 //=================================================================================================
 * {
-    box-sizing: border-box;
-    border: 1px solid red;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
-font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif;
-margin: 0 auto;
+  font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif;
+  margin: 0 auto;
 }
 
 .container {
-    width: 100%;
-    max-width: 940px;
+  width: 940px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 //===================================================================================================
-// Menu 
+// Menu
