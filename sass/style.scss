@@ -66,7 +66,7 @@ $gold: #fed136;
 //=================================================================================================
 * {
   box-sizing: border-box;
-  //border: 1px solid red;
+  //mborder: 1px solid red;
   margin: 0;
 }
 
@@ -216,10 +216,10 @@ body {
 }
 
 .portfolio-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 50px 35px;
-    padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px 35px;
+  padding-bottom: 120px;
 }
 
 .portfolio-header-large {
@@ -231,31 +231,31 @@ body {
 }
 
 .portfolio-item {
-    padding: 150px 40px;
-    height: 390px;
-    background-repeat: no-repeat;
-    background-color: $white;
+  padding: 150px 40px;
+  height: 390px;
+  background-repeat: no-repeat;
+  background-color: $white;
 }
 
-.portfolio-item-header { 
-    font-size: $font-size-m;
-    font-family: $montserrat;
-    color: $light-black;
-    width: 200px;
-    text-align: center;
+.portfolio-item-header {
+  font-size: $font-size-m;
+  font-family: $montserrat;
+  color: $light-black;
+  width: 200px;
+  text-align: center;
 }
 
 .portfolio-item-paragraph {
-    font-size: $font-size-xs;
-    font-family: $merriweather;
-    font-style: italic;
-    color: $gray;
-    text-align: center;
+  font-size: $font-size-xs;
+  font-family: $merriweather;
+  font-style: italic;
+  color: $gray;
+  text-align: center;
 }
 
 .portfolio-text-container {
-    position: relative;
-    top: 175px;
+  position: relative;
+  top: 175px;
 }
 
 .portfolio-item-1 {
@@ -285,9 +285,101 @@ body {
 //====================================================================================================
 // About section
 .about-header-large {
-    @include section-header-large();
+  @include section-header-large();
 }
 
 .about-header-small {
-    @include section-header-small();
+  @include section-header-small();
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  border: 5px solid $ivory;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 105px;
+
+  &::after {
+    content: "";
+    width: 105px;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    top: 140px;
+    border: 3px solid $ivory;
+    background-color: $ivory;
+    margin: auto;
+  }
+}
+
+.about-item-container {
+  display: grid;
+  grid-template-columns: 345px 250px 345px;
+}
+
+.about-text-container {
+  width: 100%;
+}
+
+.about-btn-container {
+  margin: auto;
+}
+
+.about-text-header {
+  text-transform: uppercase;
+}
+
+.about-text-paragraph {
+    font-size: $font-size-xs;
+    font-family: $roboto;
+    color: $gray;
+}
+
+.about-img-paragraph {
+    font-size: $font-size-m;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.about-text-header,
+.about-text-subheader {
+  font-size: $font-size-m;
+  font-family: $montserrat;
+  color: $light-black;
+  font-weight: 900;
+}
+
+.about-img-1 {
+  background-image: url("/images/about-1.jpg");
+}
+
+.about-img-2 {
+  background-image: url("/images/about-2.jpg");
+}
+
+.about-img-3 {
+  background-image: url("/images/about-3.jpg");
+}
+
+.about-img-4 {
+  background-image: url("/images/about-4.jpg");
+}
+
+.about-img-5 {
+  background-color: $gold;
+
+  &::after {
+    display: none;
+  }
 }
