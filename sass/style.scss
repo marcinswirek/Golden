@@ -458,3 +458,50 @@ body {
     padding-bottom: 120px;
     text-align: center;
 }
+
+//=================================================================================================
+// Logos section
+.logos-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logos-container-item {
+    padding: 60px 0;
+}
+
+//=========================================================================================================
+// Contact section
+.contact {
+    background-color: $light-black;
+    background-image: url('/images/map-image.png');
+    background-position-x: 500px;
+}
+
+.contact-header-large {
+    @include section-header-large();
+    color: $white;
+}
+
+.contact-header-small {
+    @include section-header-small();
+    color: $gray;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name,
+.input-mail,
+.input-subject {
+    width: 455px;
+    height: 50px;
+    margin: 15px;
+}
+
+.contact-btn {
+    @include btn-gold();
+    margin: auto;
+}
