@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
-* { box-sizing: border-box; border: 1px solid red; }
+* { box-sizing: border-box; border: 1px solid red; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif; margin: 0 auto; }
 
 .container { width: 940px; max-width: 100%; margin: 0 auto; }
 
-.navigation-container { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; }
+.navigation-container { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; padding-top: 50px; }
 
 .menu { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
 
@@ -19,11 +19,49 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .hero-header-container { text-align: center; }
 
-.hero-header-medium { font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-size: 40px; font-style: italic; color: white; }
+.hero-header-medium { font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-size: 40px; font-style: italic; color: white; padding-top: 150px; padding-bottom: 50px; margin: 0; }
 
-.hero-header-large { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 75px; font-weight: 900; color: white; text-transform: uppercase; }
+.hero-header-large { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 75px; font-weight: 900; color: white; text-transform: uppercase; margin: 0; padding-bottom: 60px; }
 
 .hero-btn { width: 240px; height: 65px; border: none; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900; background-color: #fed136; border-radius: 5px; color: white; transition: 0.3s all linear; }
 
 .hero-btn:hover { transform: scale(1.1); cursor: pointer; box-shadow: 0 0 10px black; }
+
+.services-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
+
+.services-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Montserrat", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
+
+.services-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 55px; padding-bottom: 120px; }
+
+.services-grid { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
+
+.services-grid-btn { width: 68px; height: 68px; border: 3px solid #fed136; background-color: white; border-radius: 50%; }
+
+.fa-services { color: #fed136; font-size: 40px; }
+
+.services-grid-header { color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; padding-top: 25px; padding-bottom: 15px; font-size: 18px; font-weight: 900; text-align: center; }
+
+.services-grid-paragraph { font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; font-size: 14px; color: #777777; text-align: center; }
+
+.portfolio { background-color: #f7f7f7; }
+
+.portfolio-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 35px; }
+
+.portfolio-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
+
+.portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Montserrat", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
+
+.portfolio-item { padding: 150px 143px; }
+
+.portfolio-item-1 { background-image: url("/images/portfolio-1.jpg"); }
+
+.portfolio-item-2 { background-image: url("/images/portfolio-2.jpg"); }
+
+.portfolio-item-3 { background-image: url("/images/portfolio-3.jpg"); }
+
+.portfolio-item-4 { background-image: url("/images/portfolio-4.jpg"); }
+
+.portfolio-item-5 { background-image: url("/images/portfolio-5.jpg"); }
+
+.portfolio-item-6 { background-image: url("/images/portfolio-6.jpg"); }
 /*# sourceMappingURL=style.css.map */
