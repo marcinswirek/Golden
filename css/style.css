@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+* { box-sizing: border-box; border: 1px solid red; }
+
+body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif; margin: 0 auto; }
+
+.container { width: 100%; max-width: 940px; }
+/*# sourceMappingURL=style.css.map */
