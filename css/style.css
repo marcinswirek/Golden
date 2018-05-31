@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
-* { box-sizing: border-box; border: 1px solid red; margin: 0; }
+* { box-sizing: border-box; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif; margin: 0 auto; }
 
@@ -29,7 +29,7 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .services-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
 
-.services-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Montserrat", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
+.services-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
 .services-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 55px; padding-bottom: 120px; }
 
@@ -45,13 +45,19 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .portfolio { background-color: #f7f7f7; }
 
-.portfolio-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 35px; }
+.portfolio-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 50px 35px; padding-bottom: 120px; }
 
 .portfolio-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
 
-.portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Montserrat", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
+.portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
-.portfolio-item { padding: 150px 143px; }
+.portfolio-item { padding: 150px 40px; height: 390px; background-repeat: no-repeat; background-color: white; }
+
+.portfolio-item-header { font-size: 18px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; width: 200px; text-align: center; }
+
+.portfolio-item-paragraph { font-size: 14px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; color: #777777; text-align: center; }
+
+.portfolio-text-container { position: relative; top: 175px; }
 
 .portfolio-item-1 { background-image: url("/images/portfolio-1.jpg"); }
 
@@ -64,4 +70,8 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 .portfolio-item-5 { background-image: url("/images/portfolio-5.jpg"); }
 
 .portfolio-item-6 { background-image: url("/images/portfolio-6.jpg"); }
+
+.about-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
+
+.about-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 /*# sourceMappingURL=style.css.map */

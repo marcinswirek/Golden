@@ -10,6 +10,7 @@ $font-size-xxl: 75px;
 
 $montserrat: "Montserrat", "Merriweather", "Arial", sans-serif;
 $roboto: "Roboto Slab", "Merriweather", "Arial", sans-serif;
+$merriweather: "Merriweather", "Euphoria Script", "Arial", sans-serif;
 
 $white: white;
 $ivory: #f1f1f1;
@@ -55,7 +56,7 @@ $gold: #fed136;
   text-align: center;
   margin: 0;
   padding-bottom: 80px;
-  font-family: "Merriweather", "Montserrat", "Arial", sans-serif;
+  font-family: $merriweather;
   font-style: italic;
   font-size: $font-size-s;
   color: $gray;
@@ -65,7 +66,7 @@ $gold: #fed136;
 //=================================================================================================
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  //border: 1px solid red;
   margin: 0;
 }
 
@@ -132,7 +133,7 @@ body {
 }
 
 .hero-header-medium {
-  font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif;
+  font-family: $merriweather;
   font-size: $font-size-xl;
   font-style: italic;
   color: $white;
@@ -217,7 +218,8 @@ body {
 .portfolio-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 35px;
+    grid-gap: 50px 35px;
+    padding-bottom: 120px;
 }
 
 .portfolio-header-large {
@@ -229,8 +231,31 @@ body {
 }
 
 .portfolio-item {
-    padding: 150px 143px;
+    padding: 150px 40px;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-color: $white;
+}
 
+.portfolio-item-header { 
+    font-size: $font-size-m;
+    font-family: $montserrat;
+    color: $light-black;
+    width: 200px;
+    text-align: center;
+}
+
+.portfolio-item-paragraph {
+    font-size: $font-size-xs;
+    font-family: $merriweather;
+    font-style: italic;
+    color: $gray;
+    text-align: center;
+}
+
+.portfolio-text-container {
+    position: relative;
+    top: 175px;
 }
 
 .portfolio-item-1 {
@@ -255,4 +280,14 @@ body {
 
 .portfolio-item-6 {
   background-image: url("/images/portfolio-6.jpg");
+}
+
+//====================================================================================================
+// About section
+.about-header-large {
+    @include section-header-large();
+}
+
+.about-header-small {
+    @include section-header-small();
 }
