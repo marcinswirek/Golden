@@ -95,37 +95,37 @@
             <div class="portfolio-container">
                 <div class="portfolio-item portfolio-item-1">
                     <div class="portfolio-text-container">
-                        <h4 class="portfolio-item-header">Ebony &amp; Ivory</h4>
+                        <h4 class="portfolio-item-header"><a href="#" class="portfolio-item-link"> Ebony &amp; Ivory</a></h4>
                         <p class="portfolio-item-paragraph">Branding</p>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-2">
                     <div class="portfolio-text-container">
-                        <h4 class="portfolio-item-header">Smart Stationary</h4>
+                        <h4 class="portfolio-item-header"><a href="#" class="portfolio-item-link">Smart Stationary</a></h4>
                         <p class="portfolio-item-paragraph">Print Design</p>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-3">
                     <div class="portfolio-text-container">
-                        <h4 class="portfolio-item-header">Clever Poster</h4>
+                        <h4 class="portfolio-item-header"><a href="#" class="portfolio-item-link">Clever Poster</a></h4>
                         <p class="portfolio-item-paragraph">Print Design</p>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-4">
                     <div class="portfolio-text-container">
-                        <h4 class="portfolio-item-header">Vinyl Record</h4>
+                        <h4 class="portfolio-item-header"><a href="#" class="portfolio-item-link">Vinyl Record</a></h4>
                         <p class="portfolio-item-paragraph">Product Mock-Up</p>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-5">
                     <div class="portfolio-text-container">
-                        <h4 class="portfolio-item-header">Treehouse Template</h4>
+                        <h4 class="portfolio-item-header"><a href="#" class="portfolio-item-link">Treehouse Template</a></h4>
                         <p class="portfolio-item-paragraph">Web Design</p>
                     </div>
                 </div>
                 <div class="portfolio-item portfolio-item-6">
                     <div class="portfolio-text-container">
-                        <h4 class="portfolio-item-header">Burned Logo</h4>
+                        <h4 class="portfolio-item-header"><a href="#" class="portfolio-item-link">Burned Logo</a></h4>
                         <p class="portfolio-item-paragraph">Branding</p>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                     <div></div>
                     <div class="about-btn-container">
                         <button class="about-img about-img-5">
-                            <p class="about-img-paragraph">Our story continues ...</p>
+                            <span class="about-img-paragraph">Our story continues ...</span>
                         </button>
                     </div>
                     <div></div>
@@ -258,10 +258,18 @@
     <section class="logos">
         <div class="container">
             <div class="logos-container">
-                <div class="logos-container-item"><img src="/images/logo1.png" alt="Envato" class="logos-container-img"></div>
-                <div class="logos-container-item"><img src="/images/logo2.png" alt="WordPress" class="logos-container-img"></div>
-                <div class="logos-container-item"><img src="/images/logo3.png" alt="Tuts" class="logos-container-img"></div>
-                <div class="logos-container-item"><img src="/images/logo4.png" alt="Microlancer" class="logos-container-img"></div>
+                <div class="logos-container-item">
+                    <img src="/images/logo1.png" alt="Envato" class="logos-container-img">
+                </div>
+                <div class="logos-container-item">
+                    <img src="/images/logo2.png" alt="WordPress" class="logos-container-img">
+                </div>
+                <div class="logos-container-item">
+                    <img src="/images/logo3.png" alt="Tuts" class="logos-container-img">
+                </div>
+                <div class="logos-container-item">
+                    <img src="/images/logo4.png" alt="Microlancer" class="logos-container-img">
+                </div>
             </div>
         </div>
     </section>
@@ -270,18 +278,41 @@
             <h2 class="contact-header-large">Contact us</h2>
             <h4 class="contact-header-small">Proin iaculis purus consequat sem cure. </h4>
             <div class="contact-form-container">
-                <form action="" class="contact-form">
-                    <input class="input-name" type="text">
-                    <input class="input-mail" type="mail">
-                    <input class="input-subject" type="text">
-                    <input class="input-msg" type="text">
+                <form action="#" class="contact-form">
+                    <div class="contact-inputs-container">
+                        <div class="contact-data-container">
+                            <input class="input-name" type="text" placeholder="Your name *">
+                            <input class="input-mail" type="email" placeholder="Your email *">
+                            <input class="input-subject" type="text" placeholder="Subject">
+                        </div>
+                        <div class="contact-msg-container">
+                            <input class="input-msg" type="text" placeholder="Your message *">
+                        </div>
+                    </div>
                     <input class="contact-btn" type="submit" value="Send Message">
                 </form>
             </div>
         </div>
     </section>
     <footer>
-        <p class="footer-paragraph">&copy; Copyright 2014 FreebiesXpress.com</p>
+        <div class="container">
+            <!-- <p class="footer-paragraph">&copy; Copyright 2014 FreebiesXpress.com</p> -->
+            <div class="footer-social">
+                <p class="footer-paragraph">&copy; Copyright 2014 FreebiesXpress.com</p>
+                <button class="footer-social-btn">
+                    <i class="fab fa-footer fa-twitter"></i>
+                </button>
+                <button class="footer-social-btn">
+                    <i class="fab fa-footer fa-facebook-f"></i>
+                </button>
+                <button class="footer-social-btn">
+                    <i class="fab fa-footer fa-pinterest-p"></i>
+                </button>
+                <button class="footer-social-btn">
+                    <i class="fab fa-footer fa-google-plus-g"></i>
+                </button>
+            </div>
+        </div>
     </footer>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
