@@ -7,11 +7,11 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .navigation-container { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; padding-top: 50px; }
 
-#menu_btn_media { font-size: 26px; background-color: transparent; color: #fed136; display: none; }
+.menu-button-input[type="checkbox"] + label { font-size: 35px; cursor: pointer; }
 
-.menu { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.menu-button-input, .menu-button-label { display: none; color: #fed136; }
 
-#dropdown_menu { display: none; }
+.menu { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; padding-right: 10px; }
 
 .menu-item { list-style-type: none; padding-left: 40px; }
 
@@ -201,7 +201,7 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 @media all and (max-width: 750px) { .logo { display: none; }
   .logo-media { display: block; }
   .menu { margin: auto; }
-  .menu-item { padding-left: 30px; }
+  .menu-item { padding-left: 20px; }
   .menu-item:nth-child(1) { padding-left: 0; }
   .hero { margin-top: -100px; }
   .contact-inputs-container { -ms-flex-direction: column; flex-direction: column; }
@@ -214,10 +214,14 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
   .logos-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto; grid-template-columns: auto auto; }
   .logos-container-item { padding: 20px 0; text-align: center; } }
 
-@media all and (max-width: 600px) { #dropdown_menu { display: none; }
-  .menu { display: none; }
-  #menu_btn_media { display: block; margin: 0 auto; }
-  git checkout .about-btn-container .hero { margin-top: -120px; }
+@media all and (max-width: 600px) { .menu { display: none; padding-left: 0; padding-right: 0; }
+  .navigation-container { padding-top: 5px; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
+  .navigation { display: -ms-flexbox; display: flex; margin: auto; background-color: black; }
+  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; }
+  .menu-button-input:not(:checked) ~ ul { display: none; }
+  .menu-button-input:checked ~ ul { display: block; }
+  .menu-item { background-color: black; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; z-index: 999; }
+  .hero { margin-top: -90px; }
   .hero-header-medium { font-size: 40px; }
   .hero-header-large { font-size: 40px; }
   .services-container { -ms-grid-columns: auto; grid-template-columns: auto; }
