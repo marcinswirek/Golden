@@ -11,7 +11,7 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .menu-item { list-style-type: none; padding-left: 40px; }
 
-.menu-item a { text-decoration: none; color: white; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; transition: .2s all linear; }
+.menu-item a { text-decoration: none; color: white; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; transition: 0.2s all linear; }
 
 .menu-item a:hover { color: #fed136; text-shadow: 0 0 10px black; }
 
@@ -53,9 +53,9 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
-.portfolio-item { padding: 150px 40px; height: 390px; background-repeat: no-repeat; background-color: white; transition: .3s all linear; }
+.portfolio-item { padding: 150px 40px; height: 390px; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
 
-.portfolio-item:hover { cursor: pointer; opacity: .7; }
+.portfolio-item:hover { cursor: pointer; opacity: 0.7; }
 
 .portfolio-item-header { font-size: 18px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; width: 200px; text-align: center; }
 
@@ -89,7 +89,9 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .about-item-container { display: -ms-grid; display: grid; -ms-grid-columns: 345px 250px 345px; grid-template-columns: 345px 250px 345px; }
 
-.about-text-container { width: 100%; }
+.about-text-container-media { display: none; }
+
+.about-text-container { width: 100%; display: block; }
 
 .about-btn-container { margin: auto; }
 
@@ -179,7 +181,26 @@ body { font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-s
 
 .footer-paragraph { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; padding: 42px 0; }
 
-.footer-social-btn { height: 42px; width: 42px; border: none; border-radius: 50%; background-color: black; color: white; font-size: 18px; margin-left: 10px; transition: .3s all ease-out; }
+.footer-social-btn { height: 42px; width: 42px; border: none; border-radius: 50%; background-color: black; color: white; font-size: 18px; margin-left: 10px; transition: 0.3s all ease-out; }
 
 .footer-social-btn:hover { transform: rotate(1080deg) scale(1.2); cursor: pointer; box-shadow: 0 0 10px black; }
+
+@media all and (max-width: 320px) { .hero-header-medium { font-size: 40px; }
+  .hero-header-large { font-size: 40px; }
+  .services-container { -ms-grid-columns: auto; grid-template-columns: auto; }
+  .portfolio-container { -ms-grid-columns: auto; grid-template-columns: auto; -ms-flex-pack: center; justify-content: center; }
+  .about-img { margin-bottom: 30px; }
+  .about-img::after { display: none; }
+  .about-text-container { display: none; }
+  .about-text-container-media { display: block; text-align: center; padding-bottom: 60px; padding-left: 10px; padding-right: 10px; }
+  .about-item-container { -ms-grid-columns: auto; grid-template-columns: auto; }
+  .team-container { -ms-grid-columns: auto; grid-template-columns: auto; }
+  .logos-container { -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
+  .logos-container-item { padding: 25px; }
+  .contact-inputs-container { -ms-flex-direction: column; flex-direction: column; }
+  .contact-data-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
+  .input-name, .input-mail, .input-subject { width: 80vw; height: 50px; margin: 15px; }
+  .input-msg { width: 80vw; height: 210px; }
+  .footer-social { -ms-flex-direction: column; flex-direction: column; }
+  .footer-social-container { padding-bottom: 25px; } }
 /*# sourceMappingURL=style.css.map */
