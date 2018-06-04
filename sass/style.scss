@@ -84,6 +84,25 @@ body {
 
 //===================================================================================================
 // Navigation section
+.navigation {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+  transition: 0.3s all linear;
+}
+
+.on_scroll_color {
+  transition: 0.3s all linear;
+  background-color: rgba($black, 0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  display: fixed;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
 .navigation-container {
   display: flex;
   justify-content: space-between;
@@ -107,6 +126,8 @@ body {
   display: flex;
   align-items: center;
   padding-right: 10px;
+  //   position: fixed;
+  //   top: 50px;
 }
 
 .menu-item {
@@ -151,7 +172,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -90px;
+  margin-top: 0px;
   height: 100vh;
   background-image: url("/images/background-image.jpg");
   background-position: center;
@@ -852,7 +873,7 @@ body {
     margin: auto;
     padding-left: 0;
     align-items: center;
-    z-index: 999;
+    //z-index: 999;
   }
 
   .hero {

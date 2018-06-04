@@ -5,6 +5,10 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .container { width: 940px; max-width: 100%; margin: 0 auto; }
 
+.navigation { position: fixed; width: 100%; background-color: transparent; z-index: 999; transition: 0.3s all linear; }
+
+.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.5); position: fixed; width: 100%; z-index: 999; display: fixed; -ms-flex-pack: center; justify-content: center; padding-bottom: 40px; }
+
 .navigation-container { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; padding-top: 50px; }
 
 .menu-button-input[type="checkbox"] + label { font-size: 35px; cursor: pointer; }
@@ -23,7 +27,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .logo-media { display: none; font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; text-align: center; }
 
-.hero { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; margin-top: -90px; height: 100vh; background-image: url("/images/background-image.jpg"); background-position: center; background-repeat: none; background-size: cover; }
+.hero { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; margin-top: 0px; height: 100vh; background-image: url("/images/background-image.jpg"); background-position: center; background-repeat: none; background-size: cover; }
 
 .hero-header-container { text-align: center; }
 
@@ -232,7 +236,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; }
   .menu-button-input:not(:checked) ~ ul { display: none; }
   .menu-button-input:checked ~ ul { display: block; }
-  .menu-item { background-color: black; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; z-index: 999; }
+  .menu-item { background-color: black; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; }
   .hero { margin-top: -90px; height: 100%; }
   .hero-header-medium { font-size: 40px; }
   .hero-header-large { font-size: 40px; }
