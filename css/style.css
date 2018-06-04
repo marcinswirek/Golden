@@ -7,9 +7,11 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .navigation { position: fixed; width: 100%; background-color: transparent; z-index: 999; transition: 0.3s all linear; }
 
-.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.5); position: fixed; width: 100%; z-index: 999; display: fixed; -ms-flex-pack: center; justify-content: center; padding-bottom: 40px; }
+.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; z-index: 999; display: fixed; -ms-flex-pack: center; justify-content: center; padding-bottom: 40px; box-shadow: 0 0 15px black; }
 
 .navigation-container { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; padding-top: 50px; }
+
+.menu-container { display: -ms-flexbox; display: flex; width: 100%; -ms-flex-pack: justify; justify-content: space-between; }
 
 .menu-button-input[type="checkbox"] + label { font-size: 35px; cursor: pointer; }
 
@@ -24,8 +26,6 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 .menu-item a:hover { color: #fed136; text-shadow: 0 0 10px black; }
 
 .logo { font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; padding-left: 15px; }
-
-.logo-media { display: none; font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; text-align: center; }
 
 .hero { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: center; justify-content: center; margin-top: 0px; height: 100vh; background-image: url("/images/background-image.jpg"); background-position: center; background-repeat: none; background-size: cover; }
 
@@ -63,7 +63,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
-.portfolio-item { padding: 150px 40px; height: 390px; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
+.portfolio-item { padding: 55% 13%; height: 110%; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
 
 .portfolio-item:hover { cursor: pointer; opacity: 0.7; }
 
@@ -207,18 +207,15 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .contact-inputs-container { -ms-flex-direction: column; flex-direction: column; }
   .contact-data-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .input-name, .input-mail, .input-subject { width: 60vw; height: 50px; margin: 15px; }
-  .input-msg { width: 60vw; height: 210px; } }
+  .input-msg { width: 60vw; height: 210px; margin: 15px; } }
 
-@media all and (max-width: 750px) { .logo { display: none; }
-  .logo-media { display: block; }
-  .menu { margin: auto; }
+@media all and (max-width: 750px) { .menu { margin: auto; }
   .menu-item { padding-left: 20px; }
   .menu-item:nth-child(1) { padding-left: 0; }
-  .hero { margin-top: -100px; }
   .contact-inputs-container { -ms-flex-direction: column; flex-direction: column; }
   .contact-data-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .input-name, .input-mail, .input-subject { width: 80vw; height: 50px; margin: 15px; }
-  .input-msg { width: 80vw; height: 210px; } }
+  .input-msg { margin: 15px; width: 80vw; height: 210px; } }
 
 @media all and (max-width: 670px) { .portfolio-container { -ms-grid-columns: auto; grid-template-columns: auto; -ms-flex-pack: center; justify-content: center; }
   .team-container { -ms-grid-columns: auto; grid-template-columns: auto; }
@@ -231,17 +228,19 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .services-header-small, .portfolio-header-small, .about-header-small, .team-header-small, .contact-header-small, .team-paragraph { padding-top: 10px; padding-bottom: 40px; } }
 
 @media all and (max-width: 600px) { .menu { display: none; padding-left: 0; padding-right: 0; }
-  .navigation-container { padding-top: 5px; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
-  .navigation { display: -ms-flexbox; display: flex; margin: auto; background-color: black; }
-  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; }
+  .on_scroll_color { padding-bottom: 0; background-color: rgba(0, 0, 0, 0.3); }
+  .navigation-container { padding-top: 5px; display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: justify; justify-content: space-between; }
+  .navigation { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; margin: auto; }
+  .menu-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100%; }
+  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 15px; }
   .menu-button-input:not(:checked) ~ ul { display: none; }
-  .menu-button-input:checked ~ ul { display: block; }
-  .menu-item { background-color: black; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; }
-  .hero { margin-top: -90px; height: 100%; }
+  .menu-button-input:checked ~ ul { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
+  .menu-item { background-color: rgba(0, 0, 0, 0.6); display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; }
+  .hero { height: 100%; }
   .hero-header-medium { font-size: 40px; }
   .hero-header-large { font-size: 40px; }
   .hero-btn { margin-bottom: 30px; }
-  .hero-btn, .contact-btn { width: 70%; }
+  .hero-btn, .contact-btn { width: 80vw; }
   .services-container { -ms-grid-columns: auto; grid-template-columns: auto; grid-gap: 15px; padding-bottom: 60px; }
   .services-grid-header { padding-top: 15px; }
   .portfolio-container { -ms-grid-columns: auto; grid-template-columns: auto; -ms-flex-pack: center; justify-content: center; padding-bottom: 60px; }

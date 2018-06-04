@@ -1,7 +1,7 @@
 const navMenu = document.getElementById("nav_bar");
 
 function menuScroll() {
-  console.log(document.body.scrollTop);
+  //   console.log(document.body.scrollTop);
   if (
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
