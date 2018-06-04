@@ -11,6 +11,7 @@ $font-size-xxl: 75px;
 $montserrat: "Montserrat", "Merriweather", "Arial", sans-serif;
 $roboto: "Roboto Slab", "Merriweather", "Arial", sans-serif;
 $merriweather: "Merriweather", "Euphoria Script", "Arial", sans-serif;
+$euphoria: "Euphoria Script", "Montserrat", "Merriweather", sans-serif;
 
 $white: white;
 $ivory: #f1f1f1;
@@ -66,13 +67,12 @@ $gold: #fed136;
 //=================================================================================================
 * {
   box-sizing: border-box;
-
   //border: 0.1px solid red;
   margin: 0;
 }
 
 body {
-  font-family: "Montserrat", "Merriweather", "Roboto Slab", "Arial", sans-serif;
+  font-family: $montserrat;
   margin: 0 auto;
 }
 
@@ -131,7 +131,7 @@ body {
 .logo {
   font-size: $font-size-l;
   color: $gold;
-  font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif;
+  font-family: $euphoria;
   letter-spacing: 2px;
   padding-left: 15px;
 }
@@ -140,7 +140,7 @@ body {
   display: none;
   font-size: $font-size-l;
   color: $gold;
-  font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif;
+  font-family: $euphoria;
   letter-spacing: 2px;
   text-align: center;
 }
