@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "global.css",
+	"sources": [
+		"../../sass/global/global.scss",
+		"../../sass/variables/colors.scss",
+		"../../sass/variables/typography.scss",
+		"../../sass/elements/buttons.scss",
+		"../../sass/elements/typo.scss"
+	],
+	"names": [],
+	"mappings": "AEAA,OAAO,CAAC,oHAAI;AEAZ,OAAO,CAAC,oHAAI;AFAZ,OAAO,CAAC,oHAAI;AFKZ,AAAA,CAAC,CAAC,EACA,UAAU,EAAE,UAAU,EACtB,MAAM,EAAE,eAAe,EACvB,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,IAAI,CAAC,EACH,WAAW,EEHA,YAAY,EAAE,cAAc,EAAE,OAAO,EAAE,UAAU,EFI5D,MAAM,EAAE,MAAM,GACf;;AAED,AAAA,UAAU,CAAC,EACT,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,MAAM,GACf"
+}

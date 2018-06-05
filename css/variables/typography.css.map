@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "typography.css",
+	"sources": [
+		"../../sass/variables/typography.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,oHAAI"
+}

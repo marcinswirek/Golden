@@ -8,3 +8,5 @@
 .footer-social-btn { height: 42px; width: 42px; border: none; border-radius: 50%; background-color: black; color: white; font-size: 18px; margin-left: 10px; transition: 0.3s all ease-out; }
 
 .footer-social-btn:hover { transform: rotate(1080deg) scale(1.2); cursor: pointer; box-shadow: 0 0 10px black; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -9,7 +9,7 @@
 
 .portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
-.portfolio-item { padding: 55% 13%; height: 110%; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
+.portfolio-item { padding: 55% 13%; height: 390px; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
 
 .portfolio-item:hover { cursor: pointer; opacity: 0.7; }
 
@@ -19,7 +19,7 @@
 
 .portfolio-item-paragraph { font-size: 14px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; color: #777777; text-align: center; }
 
-.portfolio-text-container { position: relative; top: 175px; }
+.portfolio-text-container { position: relative; top: 170px; }
 
 .portfolio-item-1 { background-image: url("/images/portfolio-1.jpg"); }
 
@@ -32,3 +32,5 @@
 .portfolio-item-5 { background-image: url("/images/portfolio-5.jpg"); }
 
 .portfolio-item-6 { background-image: url("/images/portfolio-6.jpg"); }
+
+/*# sourceMappingURL=portfolio.css.map */

@@ -27,7 +27,7 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
-* { box-sizing: border-box; margin: 0; }
+* { box-sizing: border-box; border: 0.1px solid red; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0 auto; }
 
@@ -97,7 +97,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .portfolio-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
-.portfolio-item { padding: 55% 13%; height: 110%; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
+.portfolio-item { padding: 55% 13%; height: 390px; background-repeat: no-repeat; background-color: white; transition: 0.3s all linear; }
 
 .portfolio-item:hover { cursor: pointer; opacity: 0.7; }
 
@@ -107,7 +107,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .portfolio-item-paragraph { font-size: 14px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; color: #777777; text-align: center; }
 
-.portfolio-text-container { position: relative; top: 175px; }
+.portfolio-text-container { position: relative; top: 170px; }
 
 .portfolio-item-1 { background-image: url("/images/portfolio-1.jpg"); }
 
@@ -229,7 +229,8 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .footer-social-btn:hover { transform: rotate(1080deg) scale(1.2); cursor: pointer; box-shadow: 0 0 10px black; }
 
-@media all and (max-width: 1400px) { .input-name, .input-mail, .input-subject { width: 40vw; height: 50px; margin: 15px; }
+@media all and (max-width: 1400px) { .portfolio-item-header { margin: 0; }
+  .input-name, .input-mail, .input-subject { width: 40vw; height: 50px; margin: 15px; }
   .input-msg { width: 40vw; height: 210px; } }
 
 @media all and (max-width: 1000px) { .portfolio-container { -ms-grid-columns: auto auto; grid-template-columns: auto auto; -ms-flex-pack: center; justify-content: center; }
@@ -282,3 +283,4 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .logos-container-item { padding: 25px; }
   .footer-social { -ms-flex-direction: column; flex-direction: column; }
   .footer-social-container { padding-bottom: 25px; } }
+/*# sourceMappingURL=main.css.map */

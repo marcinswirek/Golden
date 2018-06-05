@@ -10,3 +10,5 @@
 .hero-btn { width: 240px; height: 65px; border: none; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900; background-color: #fed136; border-radius: 5px; color: white; transition: 0.3s all linear; }
 
 .hero-btn:hover { transform: scale(1.1); cursor: pointer; box-shadow: 0 0 10px black; }
+
+/*# sourceMappingURL=hero.css.map */

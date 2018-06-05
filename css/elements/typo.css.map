@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "typo.css",
+	"sources": [
+		"../../sass/elements/typo.scss",
+		"../../sass/variables/typography.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,oHAAI;ACAZ,OAAO,CAAC,oHAAI"
+}

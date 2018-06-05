@@ -16,10 +16,10 @@
     "build:autoprefixer": "autoprefixer-cli css/main.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
-    "watch:sassprefixer": "onchange sass/*.scss *.html -- npm-run-all sassprefixer:*",
+    "watch:sassprefixer": "onchange sass/*/*.scss *.html -- npm-run-all sassprefixer:*",
     "sassprefixer:sass": "node-sass --output-style compact --source-map true -o css sass",
-    "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css",
-    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files \"css/*.css,index.html, js/*.js\" --browser \"chrome\" "
+    "sassprefixer:autoprefixer": "autoprefixer-cli css/main.css",
+    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files \"css/*/*.css,css/*.css,index.html, js/*.js\" --browser \"chrome\" "
   },
   "repository": {
     "type": "git",

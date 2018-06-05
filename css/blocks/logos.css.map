@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "logos.css",
+	"sources": [
+		"../../sass/blocks/logos.scss",
+		"../../sass/variables/colors.scss",
+		"../../sass/variables/typography.scss",
+		"../../sass/elements/buttons.scss"
+	],
+	"names": [],
+	"mappings": "AEAA,OAAO,CAAC,oHAAI;AFMZ,AAAA,gBAAgB,CAAC,EACf,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,YAAY,GAC9B;;AAED,AAAA,qBAAqB,CAAC,EACpB,OAAO,EAAE,MAAM,GAChB"
+}
