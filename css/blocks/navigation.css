@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 .navigation { position: fixed; width: 100%; background-color: transparent; z-index: 999; transition: 0.3s all linear; }
 
-.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; z-index: 999; display: fixed; justify-content: center; padding-bottom: 40px; box-shadow: 0 0 15px black; }
+.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; z-index: 999; display: fixed; justify-content: center; padding-bottom: 20px; box-shadow: 0 0 15px black; margin-top: -30px; }
 
 .navigation-container { display: flex; justify-content: space-between; padding-top: 50px; }
 
