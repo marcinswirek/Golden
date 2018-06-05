@@ -210,12 +210,22 @@
     width: 100%;
   }
 
+  .logo {
+    font-size: 26px;
+    color: $gold;
+    font-family: $euphoria;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
   .menu-button-label {
     display: block;
     margin: 0 auto;
     padding: 3px 15px;
     color: $gold;
     margin-right: 15px;
+    margin-top: -40px;
   }
 
   .menu-button-input:not(:checked) ~ ul {

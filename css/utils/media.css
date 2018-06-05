@@ -39,7 +39,8 @@
   .navigation-container { padding-top: 5px; display: flex; flex-direction: row; justify-content: space-between; }
   .navigation { display: flex; flex-direction: column; margin: auto; }
   .menu-container { display: flex; flex-direction: column; width: 100%; }
-  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 15px; }
+  .logo { font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; padding-top: 10px; padding-left: 10px; }
+  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 15px; margin-top: -40px; }
   .menu-button-input:not(:checked) ~ ul { display: none; }
   .menu-button-input:checked ~ ul { display: flex; flex-direction: column; }
   .menu-item { background-color: rgba(0, 0, 0, 0.6); display: flex; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; align-items: center; }

@@ -27,7 +27,7 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
-* { box-sizing: border-box; margin: 0; }
+* { box-sizing: border-box; border: 0.1px solid red; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0 auto; }
 
@@ -267,7 +267,8 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .navigation-container { padding-top: 5px; display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: justify; justify-content: space-between; }
   .navigation { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; margin: auto; }
   .menu-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100%; }
-  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 15px; }
+  .logo { font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; padding-top: 10px; padding-left: 10px; }
+  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 15px; margin-top: -40px; }
   .menu-button-input:not(:checked) ~ ul { display: none; }
   .menu-button-input:checked ~ ul { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .menu-item { background-color: rgba(0, 0, 0, 0.6); display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100vw; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; }
