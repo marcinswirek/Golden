@@ -1,0 +1,25 @@
+// Variables
+@import "variables/colors";
+@import "variables/typography";
+
+// Global
+@import "global/global";
+
+// Elements
+@import "elements/buttons";
+@import "elements/inputs";
+@import "elements/typo";
+
+// Blocks
+@import "blocks/navigation";
+@import "blocks/hero";
+@import "blocks/services";
+@import "blocks/portfolio";
+@import "blocks/about";
+@import "blocks/team";
+@import "blocks/logos";
+@import "blocks/contact";
+@import "blocks/footer";
+
+// Utils
+@import "utils/media";

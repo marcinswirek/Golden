@@ -1,0 +1,14 @@
+//=================================================================================================
+// Logos section
+@import "../variables/colors";
+@import "../variables/typography";
+@import "../elements/buttons";
+
+.logos-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logos-container-item {
+  padding: 60px 0;
+}

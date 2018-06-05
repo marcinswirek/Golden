@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+.navigation { position: fixed; width: 100%; background-color: transparent; z-index: 999; transition: 0.3s all linear; }
+
+.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; z-index: 999; display: fixed; justify-content: center; padding-bottom: 40px; box-shadow: 0 0 15px black; }
+
+.navigation-container { display: flex; justify-content: space-between; padding-top: 50px; }
+
+.menu-container { display: flex; width: 100%; justify-content: space-between; }
+
+.menu-button-input[type="checkbox"] + label { font-size: 35px; cursor: pointer; }
+
+.menu-button-input, .menu-button-label { display: none; color: #fed136; }
+
+.menu { display: flex; align-items: center; padding-right: 10px; }
+
+.menu-item { list-style-type: none; padding-left: 40px; }
+
+.menu-item a { text-decoration: none; color: white; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; transition: 0.2s all linear; }
+
+.menu-item a:hover { color: #fed136; text-shadow: 0 0 10px black; }
+
+.logo { font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; padding-left: 15px; }

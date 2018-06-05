@@ -1,0 +1,58 @@
+//========================================================================================
+// Services section
+@import "../variables/colors";
+@import "../variables/typography";
+@import "../elements/buttons";
+@import "../elements/typo";
+
+.services-header-large {
+  @include section-header-large();
+}
+
+.services-header-small {
+  @include section-header-small();
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 55px;
+  padding-bottom: 120px;
+}
+
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.services-grid-btn {
+  width: 68px;
+  height: 68px;
+  border: 3px solid $gold;
+  background-color: $white;
+  border-radius: 50%;
+}
+
+.fa-services {
+  color: $gold;
+  font-size: $font-size-xl;
+}
+
+.services-grid-header {
+  color: $light-black;
+  font-family: $montserrat;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: $font-size-m;
+  font-weight: 900;
+  text-align: center;
+}
+
+.services-grid-paragraph {
+  font-family: $roboto;
+  font-size: $font-size-xs;
+  color: $gray;
+  text-align: center;
+}

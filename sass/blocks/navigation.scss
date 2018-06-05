@@ -1,0 +1,83 @@
+//===================================================================================================
+// Navigation section
+@import "../variables/colors";
+@import "../variables/typography";
+@import "../elements/buttons";
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+  transition: 0.3s all linear;
+}
+
+.on_scroll_color {
+  transition: 0.3s all linear;
+  background-color: rgba($black, 0.7);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  display: fixed;
+  justify-content: center;
+  padding-bottom: 40px;
+  box-shadow: 0 0 15px $black;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.menu-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+// Hamburger menu
+
+.menu-button-input[type="checkbox"] + label {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.menu-button-input,
+.menu-button-label {
+  display: none;
+  color: $gold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.menu-item {
+  list-style-type: none;
+  padding-left: 40px;
+
+  a {
+    text-decoration: none;
+    color: $white;
+    font-size: $font-size-xs;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s all linear;
+
+    &:hover {
+      color: $gold;
+      text-shadow: 0 0 10px $black;
+    }
+  }
+}
+
+.logo {
+  font-size: $font-size-l;
+  color: $gold;
+  font-family: $euphoria;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}

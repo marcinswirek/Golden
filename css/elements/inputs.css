@@ -1,0 +1,5 @@
+.contact-form { display: flex; flex-direction: column; }
+
+.input-name, .input-mail, .input-subject { width: 33vw; height: 50px; margin: 15px; }
+
+.input-msg { width: 23vw; height: 210px; }

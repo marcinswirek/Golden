@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+.hero { display: flex; flex-direction: column; justify-content: center; margin-top: 0px; height: 100vh; background-image: url("/images/background-image.jpg"); background-position: center; background-repeat: none; background-size: cover; }
+
+.hero-header-container { text-align: center; }
+
+.hero-header-medium { font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-size: 40px; font-style: italic; color: white; padding-top: 150px; padding-bottom: 50px; margin: 0; }
+
+.hero-header-large { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 75px; font-weight: 900; color: white; text-transform: uppercase; margin: 0; padding-bottom: 60px; }
+
+.hero-btn { width: 240px; height: 65px; border: none; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900; background-color: #fed136; border-radius: 5px; color: white; transition: 0.3s all linear; }
+
+.hero-btn:hover { transform: scale(1.1); cursor: pointer; box-shadow: 0 0 10px black; }

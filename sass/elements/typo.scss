@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+@import "../variables/typography";
+
+@mixin section-header-large {
+  text-align: center;
+  margin: 0;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: $light-black;
+  font-family: $montserrat;
+  font-size: $font-size-xl;
+  font-weight: 900;
+}
+
+@mixin section-header-small {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 80px;
+  font-family: $merriweather;
+  font-style: italic;
+  font-size: $font-size-s;
+  color: $gray;
+}

@@ -1,0 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+.logos-container { display: flex; justify-content: space-evenly; }
+
+.logos-container-item { padding: 60px 0; }

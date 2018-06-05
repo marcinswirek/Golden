@@ -1,0 +1,62 @@
+//=========================================================================================================
+// Contact section
+@import "../variables/typography";
+@import "../variables/colors";
+@import "../elements/typo";
+@import "../elements/buttons";
+
+::placeholder {
+  font-size: $font-size-xs;
+  font-family: $montserrat;
+  color: $light-black;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.contact {
+  background-color: $light-black;
+  background-image: url("/images/map-image.png");
+  background-position-x: 500px;
+}
+
+.contact-form-container {
+  padding-bottom: 80px;
+}
+
+.contact-header-large {
+  @include section-header-large();
+  color: $white;
+}
+
+.contact-header-small {
+  @include section-header-small();
+  color: $gray;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name,
+.input-mail,
+.input-subject {
+  width: 33vw;
+  height: 50px;
+  margin: 15px;
+}
+
+.input-msg {
+  width: 23vw;
+  height: 210px;
+}
+.contact-btn {
+  @include btn-gold();
+  margin: auto;
+}
+
+.contact-inputs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+.footer-social { display: flex; align-items: center; justify-content: space-around; }
+
+.footer-paragraph { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; padding: 42px 0; }
+
+.footer-social-btn { height: 42px; width: 42px; border: none; border-radius: 50%; background-color: black; color: white; font-size: 18px; margin-left: 10px; transition: 0.3s all ease-out; }
+
+.footer-social-btn:hover { transform: rotate(1080deg) scale(1.2); cursor: pointer; box-shadow: 0 0 10px black; }

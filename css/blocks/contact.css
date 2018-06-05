@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+.contact { background-color: #222222; background-image: url("/images/map-image.png"); background-position-x: 500px; }
+
+.contact-form-container { padding-bottom: 80px; }
+
+.contact-header-large { text-align: center; margin: 0; padding-top: 120px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; color: white; }
+
+.contact-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; color: #777777; }
+
+.contact-form { display: flex; flex-direction: column; }
+
+.input-name, .input-mail, .input-subject { width: 33vw; height: 50px; margin: 15px; }
+
+.input-msg { width: 23vw; height: 210px; }
+
+.contact-btn { width: 240px; height: 65px; border: none; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900; background-color: #fed136; border-radius: 5px; color: white; transition: 0.3s all linear; margin: auto; }
+
+.contact-btn:hover { transform: scale(1.1); cursor: pointer; box-shadow: 0 0 10px black; }
+
+.contact-inputs-container { display: flex; justify-content: center; align-items: center; padding-bottom: 30px; }

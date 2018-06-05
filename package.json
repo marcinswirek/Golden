@@ -9,22 +9,17 @@
     "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdirp sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
-    "init:gitignore":
-      "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "build": "npm-run-all build:* test",
     "build:clean": "rimraf css/*.css",
     "build:sass": "node-sass --output-style compact -o css sass",
-    "build:autoprefixer": "autoprefixer-cli css/style.css",
-    "build-dev:sass":
-      "node-sass --output-style expanded --source-map true -o css sass",
+    "build:autoprefixer": "autoprefixer-cli css/main.css",
+    "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
-    "watch:sassprefixer":
-      "onchange sass/*.scss *.html -- npm-run-all sassprefixer:*",
-    "sassprefixer:sass":
-      "node-sass --output-style compact --source-map true -o css sass",
+    "watch:sassprefixer": "onchange sass/*.scss *.html -- npm-run-all sassprefixer:*",
+    "sassprefixer:sass": "node-sass --output-style compact --source-map true -o css sass",
     "sassprefixer:autoprefixer": "autoprefixer-cli css/style.css",
-    "watch:browser-sync":
-      "node_modules/.bin/browser-sync start --server --files \"css/*.css,index.html, js/*.js\" --browser \"chrome\" "
+    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files \"css/*.css,index.html, js/*.js\" --browser \"chrome\" "
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,45 @@
+//====================================================================================================
+// Hero section
+@import "../variables/colors";
+@import "../variables/typography";
+@import "../elements/buttons";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+  height: 100vh;
+  background-image: url("/images/background-image.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.hero-header-container {
+  text-align: center;
+}
+
+.hero-header-medium {
+  font-family: $merriweather;
+  font-size: $font-size-xl;
+  font-style: italic;
+  color: $white;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.hero-header-large {
+  font-family: $montserrat;
+  font-size: $font-size-xxl;
+  font-weight: 900;
+  color: $white;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.hero-btn {
+  @include btn-gold;
+}
