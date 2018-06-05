@@ -27,7 +27,7 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
-* { box-sizing: border-box; border: 0.1px solid red; margin: 0; }
+* { box-sizing: border-box; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0 auto; }
 
