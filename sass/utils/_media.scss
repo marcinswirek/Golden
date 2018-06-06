@@ -30,6 +30,10 @@
 //====================================================================================
 // Max 1000px
 @media all and (max-width: 1000px) {
+  .container {
+    padding: 0 15px;
+  }
+
   .portfolio-container {
     grid-template-columns: auto auto;
     justify-content: center;
@@ -87,16 +91,85 @@
 // Max 750px
 
 @media all and (max-width: 750px) {
+//   .menu {
+//     margin: auto;
+//   }
+
+//   .menu-item {
+//     padding-left: 20px;
+
+//     &:nth-child(1) {
+//       padding-left: 0;
+//     }
+//   }
+
   .menu {
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .on_scroll_color {
+    padding-bottom: 0;
+    background-color: rgba($black, 0.4);
+    margin-top: 0;
+  }
+
+  .navigation-container {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
     margin: auto;
   }
 
-  .menu-item {
-    padding-left: 20px;
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    &:nth-child(1) {
-      padding-left: 0;
-    }
+  .logo {
+    font-size: 26px;
+    color: $gold;
+    font-family: $euphoria;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .menu-button-label {
+    display: block;
+    margin: 0 auto;
+    padding: 3px 15px;
+    color: $gold;
+    margin-right: 15px;
+    margin-top: -40px;
+  }
+
+  .menu-button-input:not(:checked) ~ ul {
+    display: none;
+  }
+
+  .menu-button-input:checked ~ ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-item {
+    background-color: rgba($black, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 44px;
+    margin: auto;
+    padding-left: 0;
+    align-items: center;
   }
 
   .contact-inputs-container {
@@ -180,73 +253,73 @@
 //====================================================================================
 // Max 600px
 @media all and (max-width: 600px) {
-  .menu {
-    display: none;
-    padding-left: 0;
-    padding-right: 0;
-  }
+//   .menu {
+//     display: none;
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
 
-  .on_scroll_color {
-    padding-bottom: 0;
-    background-color: rgba($black, 0.3);
-  }
+//   .on_scroll_color {
+//     padding-bottom: 0;
+//     background-color: rgba($black, 0.3);
+//   }
 
-  .navigation-container {
-    padding-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+//   .navigation-container {
+//     padding-top: 5px;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//   }
 
-  .navigation {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
+//   .navigation {
+//     display: flex;
+//     flex-direction: column;
+//     margin: auto;
+//   }
 
-  .menu-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+//   .menu-container {
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//   }
 
-  .logo {
-    font-size: 26px;
-    color: $gold;
-    font-family: $euphoria;
-    letter-spacing: 2px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
+//   .logo {
+//     font-size: 26px;
+//     color: $gold;
+//     font-family: $euphoria;
+//     letter-spacing: 2px;
+//     padding-top: 10px;
+//     padding-left: 10px;
+//   }
 
-  .menu-button-label {
-    display: block;
-    margin: 0 auto;
-    padding: 3px 15px;
-    color: $gold;
-    margin-right: 15px;
-    margin-top: -40px;
-  }
+//   .menu-button-label {
+//     display: block;
+//     margin: 0 auto;
+//     padding: 3px 15px;
+//     color: $gold;
+//     margin-right: 15px;
+//     margin-top: -40px;
+//   }
 
-  .menu-button-input:not(:checked) ~ ul {
-    display: none;
-  }
+//   .menu-button-input:not(:checked) ~ ul {
+//     display: none;
+//   }
 
-  .menu-button-input:checked ~ ul {
-    display: flex;
-    flex-direction: column;
-  }
+//   .menu-button-input:checked ~ ul {
+//     display: flex;
+//     flex-direction: column;
+//   }
 
-  .menu-item {
-    background-color: rgba($black, 0.6);
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    line-height: 44px;
-    margin: auto;
-    padding-left: 0;
-    align-items: center;
-  }
+//   .menu-item {
+//     background-color: rgba($black, 0.6);
+//     display: flex;
+//     flex-direction: column;
+//     width: 100vw;
+//     line-height: 44px;
+//     margin: auto;
+//     padding-left: 0;
+//     align-items: center;
+//   }
 
   .hero {
     height: 100%;
