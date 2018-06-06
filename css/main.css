@@ -51,7 +51,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .navigation { position: fixed; width: 100%; background-color: transparent; z-index: 999; transition: 0.3s all linear; }
 
-.on_scroll_color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; z-index: 999; display: fixed; -ms-flex-pack: center; justify-content: center; padding-bottom: 20px; box-shadow: 0 0 15px black; margin-top: -30px; }
+.on-scroll-color { transition: 0.3s all linear; background-color: rgba(0, 0, 0, 0.7); position: fixed; width: 100%; z-index: 999; display: fixed; -ms-flex-pack: center; justify-content: center; padding-bottom: 20px; box-shadow: 0 0 15px black; margin-top: -30px; }
 
 .navigation-container { display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; padding-top: 50px; }
 
@@ -302,7 +302,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .input-msg { width: 60vw; height: 210px; margin: 15px; } }
 
 @media all and (max-width: 750px) { .menu { display: none; padding-left: 0; padding-right: 0; }
-  .on_scroll_color { padding-bottom: 0; background-color: rgba(0, 0, 0, 0.4); margin-top: 0; }
+  .on-scroll-color { padding-bottom: 0; background-color: rgba(0, 0, 0, 0.4); margin-top: 0; }
   .navigation-container { padding-top: 5px; display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: justify; justify-content: space-between; }
   .navigation { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; margin: auto; }
   .menu-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100%; }
@@ -335,4 +335,3 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .logos-container-item { padding: 25px; }
   .footer-social { -ms-flex-direction: column; flex-direction: column; }
   .footer-social-container { padding-bottom: 25px; } }
-/*# sourceMappingURL=main.css.map */

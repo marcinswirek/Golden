@@ -1,11 +1,11 @@
-const navMenu = document.getElementById("nav_bar");
+const navMenu = document.getElementById("nav-bar");
 
 function menuScroll() {
   if (
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
   ) {
-    navMenu.className = "on_scroll_color";
+    navMenu.className = "on-scroll-color";
   } else {
     navMenu.className = "navigation";
   }
