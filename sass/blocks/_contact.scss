@@ -19,7 +19,7 @@
 }
 
 .contact-form-container {
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 .contact-header-large {
@@ -40,23 +40,25 @@
 .input-name,
 .input-mail,
 .input-subject {
-  width: 33vw;
+  width: 92%;
   height: 50px;
-  margin: 15px;
+  padding: 15px;
 }
 
 .input-msg {
-  width: 23vw;
-  height: 210px;
+  width: 90%;
+  height: 208px;
+  margin: 15px;
+  padding: 15px;
 }
+
 .contact-btn {
   @include btn-gold();
-  margin: auto;
+  margin: 15px auto;
 }
 
 .contact-inputs-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
   align-items: center;
-  padding-bottom: 30px;
 }

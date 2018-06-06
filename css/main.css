@@ -27,7 +27,7 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
-* { box-sizing: border-box; border: 0.1px solid red; margin: 0; }
+* { box-sizing: border-box; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0 auto; }
 
@@ -77,7 +77,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .services-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
 
-.services-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 55px; padding-bottom: 120px; }
+.services-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 55px; padding-bottom: 60px; }
 
 .services-grid { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; padding: 10px; }
 
@@ -91,7 +91,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .portfolio { background-color: #f7f7f7; }
 
-.portfolio-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 50px 35px; padding-bottom: 120px; }
+.portfolio-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto auto; grid-template-columns: auto auto auto; grid-gap: 50px 35px; padding-bottom: 60px; }
 
 .portfolio-header-large { text-align: center; margin: 0; padding-top: 80px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
 
@@ -127,17 +127,19 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .about-btn-container-2, .about-btn-container-4 { -ms-grid-column: 2; grid-column-start: 2; }
 
-.about-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
+.about-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; padding-bottom: 60px; }
 
 .about-img { height: 170px; width: 170px; border-radius: 50%; border: 5px solid #f1f1f1; background-size: cover; background-repeat: no-repeat; margin: auto; margin-bottom: 105px; }
 
 .about-img::after { content: ""; width: 105px; display: block; transform: rotate(90deg); position: relative; top: 140px; border: 2px solid #f1f1f1; background-color: #f1f1f1; margin: auto; }
 
-.about-item-container-1, .about-item-container-3 { display: -ms-grid; display: grid; -ms-grid-columns: 345px auto 345px; grid-template-columns: 345px auto 345px; -ms-flex-pack: start; justify-content: start; }
+.about-item-container-1, .about-item-container-3, .about-item-container-5 { display: -ms-grid; display: grid; -ms-grid-columns: 40% 20% 40%; grid-template-columns: 40% 20% 40%; -ms-flex-pack: center; justify-content: center; }
 
-.about-item-container-2, .about-item-container-4 { display: -ms-grid; display: grid; -ms-grid-columns: 345px auto 345px; grid-template-columns: 345px auto 345px; -ms-flex-pack: start; justify-content: start; }
+.about-item-container-2, .about-item-container-4 { display: -ms-grid; display: grid; -ms-grid-columns: 40% 20% 40%; grid-template-columns: 40% 20% 40%; }
 
 .about-text-container { width: 100%; padding: 0 10px; }
+
+.about-btn-container { margin: auto; }
 
 .about-text-header { text-transform: uppercase; }
 
@@ -189,7 +191,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .team-container-item { margin: auto; }
 
-.team-paragraph { font-size: 16px; font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; color: #777777; padding: 50px 10px 120px 10px; text-align: center; }
+.team-paragraph { font-size: 16px; font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; color: #777777; padding: 50px 10px 60px 10px; text-align: center; }
 
 .logos-container { display: -ms-flexbox; display: flex; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
@@ -203,7 +205,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .contact { background-color: #222222; background-image: url("/images/map-image.png"); background-position-x: 500px; }
 
-.contact-form-container { padding-bottom: 80px; }
+.contact-form-container { padding-bottom: 60px; }
 
 .contact-header-large { text-align: center; margin: 0; padding-top: 80px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; color: white; }
 
@@ -211,15 +213,15 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .contact-form { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
 
-.input-name, .input-mail, .input-subject { width: 33vw; height: 50px; margin: 15px; }
+.input-name, .input-mail, .input-subject { width: 92%; height: 50px; padding: 15px; }
 
-.input-msg { width: 23vw; height: 210px; }
+.input-msg { width: 90%; height: 208px; margin: 15px; padding: 15px; }
 
-.contact-btn { width: 240px; height: 65px; border: none; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900; background-color: #fed136; border-radius: 5px; color: white; transition: 0.3s all linear; margin: auto; }
+.contact-btn { width: 240px; height: 65px; border: none; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 18px; text-transform: uppercase; font-weight: 900; background-color: #fed136; border-radius: 5px; color: white; transition: 0.3s all linear; margin: 15px auto; }
 
 .contact-btn:hover { transform: scale(1.1); cursor: pointer; box-shadow: 0 0 10px black; }
 
-.contact-inputs-container { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-bottom: 30px; }
+.contact-inputs-container { display: -ms-grid; display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; -ms-flex-align: center; align-items: center; }
 
 .footer-social { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
 
@@ -230,17 +232,20 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 .footer-social-btn:hover { transform: rotate(1080deg) scale(1.2); cursor: pointer; box-shadow: 0 0 10px black; }
 
 @media all and (max-width: 1400px) { .portfolio-item-header { margin: 0; }
-  .input-name, .input-mail, .input-subject { width: 40vw; height: 50px; margin: 15px; }
-  .input-msg { width: 40vw; height: 210px; } }
+  .input-name, .input-mail, .input-subject { width: 92%; }
+  .input-msg { width: 90%; height: 210px; } }
 
 @media all and (max-width: 1000px) { .container { padding: 0 15px; }
+  .hero-header-medium { font-size: 40px; }
+  .hero-header-large { font-size: 40px; }
   .portfolio-container { -ms-grid-columns: auto auto; grid-template-columns: auto auto; -ms-flex-pack: center; justify-content: center; }
   .about-img { margin-bottom: 10px; }
   .about-img::after { display: none; }
-  .about-text-container { display: none; }
-  .about-text-container-media { display: block; text-align: center; padding-bottom: 60px; padding-left: 10px; padding-right: 10px; }
-  .about-item-container { -ms-grid-columns: auto; grid-template-columns: auto; }
-  .contact-inputs-container { -ms-flex-direction: column; flex-direction: column; }
+  .about-text-container { width: 60%; text-align: center; padding-bottom: 30px; }
+  .about-item-container-1, .about-item-container-3 { display: -ms-flexbox; display: flex; -ms-flex-direction: column-reverse; flex-direction: column-reverse; -ms-flex-align: center; align-items: center; }
+  .about-item-container-2, .about-item-container-4 { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
+  .logos-container-item { padding: 30px 0; }
+  .contact-inputs-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .contact-data-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .input-name, .input-mail, .input-subject { width: 60vw; height: 50px; margin: 15px; }
   .input-msg { width: 60vw; height: 210px; margin: 15px; } }
@@ -255,6 +260,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .menu-button-input:not(:checked) ~ ul { display: none; }
   .menu-button-input:checked ~ ul { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .menu-item { background-color: rgba(0, 0, 0, 0.6); display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100%; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; }
+  .about-text-container { width: 80%; }
   .contact-inputs-container { -ms-flex-direction: column; flex-direction: column; }
   .contact-data-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .input-name, .input-mail, .input-subject { width: 80vw; height: 50px; margin: 15px; }
@@ -271,8 +277,6 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .services-header-small, .portfolio-header-small, .about-header-small, .team-header-small, .contact-header-small, .team-paragraph { padding-top: 10px; padding-bottom: 40px; } }
 
 @media all and (max-width: 600px) { .hero { height: 100%; }
-  .hero-header-medium { font-size: 40px; }
-  .hero-header-large { font-size: 40px; }
   .hero-btn { margin-bottom: 30px; }
   .hero-btn, .contact-btn { width: 80vw; }
   .services-container { -ms-grid-columns: auto; grid-template-columns: auto; grid-gap: 15px; padding-bottom: 60px; }
