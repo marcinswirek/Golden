@@ -5,13 +5,6 @@
 @import "../elements/typo";
 @import "../elements/buttons";
 
-::placeholder {
-  font-size: $font-size-xs;
-  font-family: $montserrat;
-  color: $light-black;
-  text-transform: uppercase;
-  font-weight: 900;
-}
 .contact {
   background-color: $light-black;
   background-image: url("/images/map-image.png");

@@ -60,6 +60,10 @@
   grid-template-columns: 40% 20% 40%;
 }
 
+.about-item-container-5 {
+  grid-template-rows: 170px;
+}
+
 .about-text-container {
   width: 100%;
   padding: 0 10px;
@@ -96,12 +100,10 @@
 
 .about-img-1 {
   background-image: url("/images/about-1.jpg");
-  //float: left;
 }
 
 .about-img-2 {
   background-image: url("/images/about-2.jpg");
-  //float: right;
 }
 
 .about-img-3 {
@@ -110,7 +112,6 @@
 
 .about-img-4 {
   background-image: url("/images/about-4.jpg");
-  //float: right;
 }
 
 .about-img-5 {

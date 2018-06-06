@@ -22,3 +22,11 @@
   font-size: $font-size-s;
   color: $gray;
 }
+
+::placeholder {
+  font-size: $font-size-xs;
+  font-family: $montserrat;
+  color: $light-black;
+  text-transform: uppercase;
+  font-weight: 900;
+}

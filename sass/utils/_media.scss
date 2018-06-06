@@ -34,6 +34,23 @@
     padding: 0 15px;
   }
 
+  .services-header-large,
+  .portfolio-header-large,
+  .about-header-large,
+  .team-header-large,
+  .contact-header-large {
+    padding-top: 60px;
+  }
+
+  .services-header-small,
+  .portfolio-header-small,
+  .about-header-small,
+  .team-header-small,
+  .contact-header-small {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
   .hero-header-medium {
     font-size: $font-size-xl;
   }
@@ -58,25 +75,30 @@
   .about-text-container {
     width: 60%;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+  }
+
+  .about-text-header,
+  .about-text-subheader {
+    padding: 5px 0;
   }
 
   .about-item-container-1,
   .about-item-container-3 {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   .about-item-container-2,
   .about-item-container-4 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .logos-container-item {
-      padding: 30px 0;
+    padding: 30px 0;
   }
 
   .contact-inputs-container {
@@ -178,7 +200,7 @@
   }
 
   .about-text-container {
-      width: 80%;
+    width: 80%;
   }
 
   .contact-inputs-container {
@@ -239,24 +261,6 @@
     padding: 20px 0;
     text-align: center;
   }
-
-  .services-header-large,
-  .portfolio-header-large,
-  .about-header-large,
-  .team-header-large,
-  .contact-header-large {
-    padding-top: 50px;
-  }
-
-  .services-header-small,
-  .portfolio-header-small,
-  .about-header-small,
-  .team-header-small,
-  .contact-header-small,
-  .team-paragraph {
-    padding-top: 10px;
-    padding-bottom: 40px;
-  }
 }
 
 //====================================================================================
@@ -265,14 +269,6 @@
   .hero {
     height: 100%;
   }
-
-//   .hero-header-medium {
-//     font-size: $font-size-xl;
-//   }
-
-//   .hero-header-large {
-//     font-size: $font-size-xl;
-//   }
 
   .hero-btn {
     margin-bottom: 30px;

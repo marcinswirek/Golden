@@ -27,6 +27,10 @@
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
 @import url("https://fonts.googleapis.com/css?family=Euphoria+Script|Montserrat|PT+Sans|Quicksand|Merriweather|Roboto+Slab");
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
 * { box-sizing: border-box; margin: 0; }
 
 body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0 auto; }
@@ -38,6 +42,12 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 .input-name, .input-mail, .input-subject { width: 33vw; height: 50px; margin: 15px; }
 
 .input-msg { width: 23vw; height: 210px; }
+
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
 
 .navigation { position: fixed; width: 100%; background-color: transparent; z-index: 999; transition: 0.3s all linear; }
 
@@ -73,6 +83,12 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .hero-btn:hover { transform: scale(1.1); cursor: pointer; box-shadow: 0 0 10px black; }
 
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
 .services-header-large { text-align: center; margin: 0; padding-top: 80px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
 
 .services-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
@@ -88,6 +104,12 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 .services-grid-header { color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; padding-top: 25px; padding-bottom: 15px; font-size: 18px; font-weight: 900; text-align: center; }
 
 .services-grid-paragraph { font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; font-size: 14px; color: #777777; text-align: center; }
+
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
 
 .portfolio { background-color: #f7f7f7; }
 
@@ -121,6 +143,12 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .portfolio-item-6 { background-image: url("/images/portfolio-6.jpg"); }
 
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
 .about-header-large { text-align: center; margin: 0; padding-top: 80px; padding-bottom: 20px; text-transform: uppercase; color: #222222; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; font-size: 40px; font-weight: 900; }
 
 .about-header-small { text-align: center; margin: 0; padding-bottom: 80px; font-family: "Merriweather", "Euphoria Script", "Arial", sans-serif; font-style: italic; font-size: 16px; color: #777777; }
@@ -136,6 +164,8 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 .about-item-container-1, .about-item-container-3, .about-item-container-5 { display: -ms-grid; display: grid; -ms-grid-columns: 40% 20% 40%; grid-template-columns: 40% 20% 40%; -ms-flex-pack: center; justify-content: center; }
 
 .about-item-container-2, .about-item-container-4 { display: -ms-grid; display: grid; -ms-grid-columns: 40% 20% 40%; grid-template-columns: 40% 20% 40%; }
+
+.about-item-container-5 { -ms-grid-rows: 170px; grid-template-rows: 170px; }
 
 .about-text-container { width: 100%; padding: 0 10px; }
 
@@ -160,6 +190,12 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 .about-img-5 { background-color: #fed136; }
 
 .about-img-5::after { display: none; }
+
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
 
 .team { background-color: #f7f7f7; }
 
@@ -223,6 +259,12 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .contact-inputs-container { display: -ms-grid; display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; -ms-flex-align: center; align-items: center; }
 
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
 .footer-social { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
 
 .footer-paragraph { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; padding: 42px 0; }
@@ -231,17 +273,26 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .footer-social-btn:hover { transform: rotate(1080deg) scale(1.2); cursor: pointer; box-shadow: 0 0 10px black; }
 
+::-webkit-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+:-ms-input-placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
+::placeholder { font-size: 14px; font-family: "Montserrat", "Merriweather", "Arial", sans-serif; color: #222222; text-transform: uppercase; font-weight: 900; }
+
 @media all and (max-width: 1400px) { .portfolio-item-header { margin: 0; }
   .input-name, .input-mail, .input-subject { width: 92%; }
   .input-msg { width: 90%; height: 210px; } }
 
 @media all and (max-width: 1000px) { .container { padding: 0 15px; }
+  .services-header-large, .portfolio-header-large, .about-header-large, .team-header-large, .contact-header-large { padding-top: 60px; }
+  .services-header-small, .portfolio-header-small, .about-header-small, .team-header-small, .contact-header-small { padding-top: 10px; padding-bottom: 40px; }
   .hero-header-medium { font-size: 40px; }
   .hero-header-large { font-size: 40px; }
   .portfolio-container { -ms-grid-columns: auto auto; grid-template-columns: auto auto; -ms-flex-pack: center; justify-content: center; }
   .about-img { margin-bottom: 10px; }
   .about-img::after { display: none; }
-  .about-text-container { width: 60%; text-align: center; padding-bottom: 30px; }
+  .about-text-container { width: 60%; text-align: center; padding-bottom: 40px; }
+  .about-text-header, .about-text-subheader { padding: 5px 0; }
   .about-item-container-1, .about-item-container-3 { display: -ms-flexbox; display: flex; -ms-flex-direction: column-reverse; flex-direction: column-reverse; -ms-flex-align: center; align-items: center; }
   .about-item-container-2, .about-item-container-4 { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
   .logos-container-item { padding: 30px 0; }
@@ -272,9 +323,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .team-name { padding-top: 10px; }
   .services-container, .portfolio-container { padding-bottom: 60px; }
   .logos-container { display: -ms-grid; display: grid; -ms-grid-columns: auto auto; grid-template-columns: auto auto; }
-  .logos-container-item { padding: 20px 0; text-align: center; }
-  .services-header-large, .portfolio-header-large, .about-header-large, .team-header-large, .contact-header-large { padding-top: 50px; }
-  .services-header-small, .portfolio-header-small, .about-header-small, .team-header-small, .contact-header-small, .team-paragraph { padding-top: 10px; padding-bottom: 40px; } }
+  .logos-container-item { padding: 20px 0; text-align: center; } }
 
 @media all and (max-width: 600px) { .hero { height: 100%; }
   .hero-btn { margin-bottom: 30px; }
