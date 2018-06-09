@@ -16,4 +16,7 @@ window.onscroll = function() {
 };
 
 window.sr = ScrollReveal();
-sr.reveal(".services-reveal");
+sr.reveal(".services-reveal", { duration: 2000 }, 300);
+sr.reveal(".portfolio-reveal", { duration: 2000 }, 300);
+sr.reveal(".about-reveal", { duration: 2000 }, 300);
+sr.reveal(".team-reveal", { duration: 2000 }, 300);
