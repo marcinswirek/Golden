@@ -14,3 +14,6 @@ function menuScroll() {
 window.onscroll = function() {
   menuScroll();
 };
+
+window.sr = ScrollReveal();
+sr.reveal(".services-reveal");
