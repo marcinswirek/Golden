@@ -227,7 +227,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
 
 .team-container-item { margin: auto; }
 
-.team-paragraph { font-size: 16px; font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; color: #777777; padding: 50px 10px 60px 10px; text-align: center; }
+.team-paragraph { font-size: 16px; font-family: "Roboto Slab", "Merriweather", "Arial", sans-serif; color: #777777; padding: 50px 20px 60px 20px; text-align: center; }
 
 .logos-container { display: -ms-flexbox; display: flex; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
@@ -283,9 +283,8 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .input-name, .input-mail, .input-subject { width: 92%; }
   .input-msg { width: 90%; height: 210px; } }
 
-@media all and (max-width: 1000px) { .container { padding: 0 15px; }
-  .services-header-large, .portfolio-header-large, .about-header-large, .team-header-large, .contact-header-large { padding-top: 60px; }
-  .services-header-small, .portfolio-header-small, .about-header-small, .team-header-small, .contact-header-small { padding-top: 10px; padding-bottom: 40px; }
+@media all and (max-width: 1000px) { .services-header-large, .portfolio-header-large, .about-header-large, .team-header-large, .contact-header-large { padding-top: 60px; }
+  .services-header-small, .portfolio-header-small, .about-header-small, .team-header-small, .contact-header-small { padding-top: 10px; padding-bottom: 40px; padding-right: 10px; padding-left: 10px; }
   .hero-header-medium { font-size: 40px; }
   .hero-header-large { font-size: 40px; }
   .portfolio-container { -ms-grid-columns: auto auto; grid-template-columns: auto auto; -ms-flex-pack: center; justify-content: center; }
@@ -307,7 +306,7 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .navigation { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; margin: auto; }
   .menu-container { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100%; }
   .logo { font-size: 26px; color: #fed136; font-family: "Euphoria Script", "Montserrat", "Merriweather", sans-serif; letter-spacing: 2px; padding-top: 10px; padding-left: 10px; }
-  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 15px; margin-top: -40px; }
+  .menu-button-label { display: block; margin: 0 auto; padding: 3px 15px; color: #fed136; margin-right: 5px; margin-top: -40px; }
   .menu-button-input:not(:checked) ~ ul { display: none; }
   .menu-button-input:checked ~ ul { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; }
   .menu-item { background-color: rgba(0, 0, 0, 0.6); display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; width: 100%; line-height: 44px; margin: auto; padding-left: 0; -ms-flex-align: center; align-items: center; }
@@ -335,3 +334,4 @@ body { font-family: "Montserrat", "Merriweather", "Arial", sans-serif; margin: 0
   .logos-container-item { padding: 25px; }
   .footer-social { -ms-flex-direction: column; flex-direction: column; }
   .footer-social-container { padding-bottom: 25px; } }
+/*# sourceMappingURL=main.css.map */

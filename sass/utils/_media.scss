@@ -30,10 +30,6 @@
 //====================================================================================
 // Max 1000px
 @media all and (max-width: 1000px) {
-  .container {
-    padding: 0 15px;
-  }
-
   .services-header-large,
   .portfolio-header-large,
   .about-header-large,
@@ -49,6 +45,8 @@
   .contact-header-small {
     padding-top: 10px;
     padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .hero-header-medium {
@@ -175,7 +173,7 @@
     margin: 0 auto;
     padding: 3px 15px;
     color: $gold;
-    margin-right: 15px;
+    margin-right: 5px;
     margin-top: -40px;
   }
 
