@@ -4,6 +4,7 @@
   "description": "https://swirek-marcin.github.io/Golden/",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
     "init-project": "npm install && npm-run-all init:*",
