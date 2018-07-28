@@ -1,6 +1,6 @@
 # Golden
 
-https://swirek-marcin.github.io/Golden/
+https://golden-site.herokuapp.com/
 
 ```
 After You git clone this repo:
