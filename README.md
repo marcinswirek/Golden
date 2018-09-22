@@ -1,6 +1,6 @@
 # Golden
 
-https://golden-site.herokuapp.com/
+http://www.golden.dev-tricks.pl/
 
 ```
 After You git clone this repo:
